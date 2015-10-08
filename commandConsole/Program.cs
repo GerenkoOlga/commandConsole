@@ -29,6 +29,31 @@ namespace commandConsole
             livingRoomLightOn.Execute();
             kitchenLightOff= new LightOffCommand(kitchenLight);
             kitchenLightOff.Execute();
+            ///Создание команд для управления сауной
+            Hottub hottub = new Hottub();
+            Console.WriteLine(hottub.Heat());
+            HottubOnCommand HottubOn = new HottubOnCommand(hottub);
+            HottubOn.Execute();
+            Console.WriteLine(hottub.Cool());
+            HottubOffCommand HottubOff = new HottubOffCommand(hottub);
+            Console.WriteLine(HottubOff.Execute());
+            CeilingFan ceilingFan = new CeilingFan("\nЖилая комната\n");
+            Console.WriteLine(ceilingFan.High());
+            ///Создание команд управления потолочным вентилятором
+            CeilingFanOnCommand ceilingFanOn = new CeilingFanOnCommand(ceilingFan);
+            ceilingFanOn.Execute();
+                     
+             GarageDoor garageDoor = new GarageDoor("\n Дверь гаража\n ");
+            Console.WriteLine(garageDoor.Up());
+            ///Создание команд для управления дверью гаража
+            GarageDoorUpCommand garageDoorUp = new GarageDoorUpCommand(garageDoor);
+            garageDoorUp.Execute();
+            Console.WriteLine(garageDoor.LightOn());
+            garageDoorUp.Execute();
+
+            Console.WriteLine(garageDoor.Stop());
+            garageDoorUp.Execute();
+            
             Console.ReadKey();
         }
     }
