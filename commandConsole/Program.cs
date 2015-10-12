@@ -50,10 +50,24 @@ namespace commandConsole
             garageDoorUp.Execute();
             Console.WriteLine(garageDoor.LightOn());
             garageDoorUp.Execute();
-
             Console.WriteLine(garageDoor.Stop());
             garageDoorUp.Execute();
-            
+            Stereo stereo = new Stereo("\nЖилая комната\n");
+            Console.WriteLine(stereo.On());
+            Console.WriteLine(stereo.SetCD());
+            Console.WriteLine(stereo.SetDVD());
+            ///создание команд для управления стереосистемами
+            StereoOnWithCDCommand stereoOnwithCD = new StereoOnWithCDCommand(stereo);
+            stereoOnwithCD.Execute();
+            Console.WriteLine(stereo.Off());
+            ///создание команд для управления стереосистемами
+            StereoOffCommand stereoOffwithCD = new StereoOffCommand(stereo);
+            Console.WriteLine(stereoOffwithCD.Execute());
+            Stereo stereo2 = new Stereo("\n\nКухня \n");
+            Console.WriteLine(stereo2.Off());
+            ///создание команд для управления стереосистемами
+            StereoOffCommand stereoOffwithCD2 = new StereoOffCommand(stereo2);
+            Console.WriteLine(stereoOffwithCD2.Execute());
             Console.ReadKey();
         }
     }

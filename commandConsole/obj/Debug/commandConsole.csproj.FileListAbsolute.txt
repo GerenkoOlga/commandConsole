@@ -1,0 +1,12 @@
+D:\Пары 2015-2016 год\Инженерия 3 курс 2015_2016гг\Команда\commandConsole\commandConsole\bin\Debug\commandConsole.exe.config
+D:\Пары 2015-2016 год\Инженерия 3 курс 2015_2016гг\Команда\commandConsole\commandConsole\obj\Debug\commandConsole.csprojResolveAssemblyReference.cache
+D:\Пары 2015-2016 год\Инженерия 3 курс 2015_2016гг\Команда\commandConsole\commandConsole\bin\Debug\commandConsole.exe
+D:\Пары 2015-2016 год\Инженерия 3 курс 2015_2016гг\Команда\commandConsole\commandConsole\bin\Debug\commandConsole.pdb
+D:\Пары 2015-2016 год\Инженерия 3 курс 2015_2016гг\Команда\commandConsole\commandConsole\obj\Debug\commandConsole.exe
+D:\Пары 2015-2016 год\Инженерия 3 курс 2015_2016гг\Команда\commandConsole\commandConsole\obj\Debug\commandConsole.pdb
+C:\Work\commandConsole\commandConsole\bin\Debug\commandConsole.exe.config
+C:\Work\commandConsole\commandConsole\obj\Debug\commandConsole.exe
+C:\Work\commandConsole\commandConsole\obj\Debug\commandConsole.pdb
+C:\Work\commandConsole\commandConsole\bin\Debug\commandConsole.exe
+C:\Work\commandConsole\commandConsole\bin\Debug\commandConsole.pdb
+C:\Work\commandConsole\commandConsole\obj\Debug\commandConsole.csprojResolveAssemblyReference.cache
